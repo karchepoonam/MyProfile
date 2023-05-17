@@ -1,8 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contactus HTML</title>
-</head>
+    <title>Contactus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+<style>
+    input[type="text"]{
+                text-transform: capitalize;
+            }
+            input[type="email"]{
+                color: chocolate;
+            }
+
+            #submit:hover{
+                background-color: burlywood;
+            }
+            button[type="reset"]:hover{
+                color: brown;
+            }
+            *{
+               font-family: 'Roboto Slab', serif;
+            }
+            label{
+                color: cadetblue;
+                font-size: large;
+                margin:  10px 10px 10px 10px;
+            }
+            input{
+                width: 400px;
+                height: 25px;
+                border-radius: 10px;
+                border: 1px solid burlywood;
+                
+            }
+</style>
+    </head>
 <body>
     <h2> Contact Us</h2>
     <form>
@@ -25,7 +59,7 @@
                     <td> <textarea rows="5" cols="25"> </textarea> </td>
                 </tr>
                 <tr>
-                    <td> <button type="submit"> Register </button> </td>
+                    <td> <button type="submit" itemid="submit"> Register </button> </td>
                     <td> <button type="reset">Clear </button></td>
                 </tr>
                 </tbody>
